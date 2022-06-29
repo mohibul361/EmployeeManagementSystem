@@ -1,0 +1,1 @@
+com.sencillo.dao.PromotionDaoImpl

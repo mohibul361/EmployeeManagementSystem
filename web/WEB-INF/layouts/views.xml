@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+	"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+	"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+	<definition name="index" extends="DefaultTemplate">
+		<put-attribute name="title" value="Employee Management System"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/index.jsp" />
+	</definition>
+	
+	
+	<definition name="login" extends="DefaultTemplate">
+		<put-attribute name="title" value="Employee Management System - Login" />
+		<put-attribute name="body" value="/WEB-INF/jsp/login.jsp" />
+	</definition>
+	
+	<definition name="404" extends="CustomTemplate">
+		<put-attribute name="title" value="Page Not Found Error" />
+		<put-attribute name="error" value="/WEB-INF/jsp/404.jsp" />
+	</definition>
+
+	<definition name="500" extends="CustomTemplate">
+		<put-attribute name="title" value="Internal Server Error" />
+		<put-attribute name="error" value="/WEB-INF/jsp/500.jsp" />
+	</definition>
+        
+        <definition name="employee" extends="DefaultTemplate">
+		<put-attribute name="title" value="Add/Edit Employee"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/employee.jsp" />
+	</definition>
+        
+        <definition name="employeeList" extends="DefaultTemplate">
+		<put-attribute name="title" value="Employee List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/employeeList.jsp" />
+	</definition>
+        
+        <definition name="employeeProfile" extends="DefaultTemplate">
+		<put-attribute name="title" value="Employee Profile"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/employeeProfile.jsp" />
+	</definition>
+        
+        <definition name="leave" extends="DefaultTemplate">
+		<put-attribute name="title" value="Add/Edit Leave"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/leave.jsp" />
+	</definition>
+        
+        <definition name="employeeLeaveProfile" extends="DefaultTemplate">
+		<put-attribute name="title" value="Employee Leave List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/employeeLeaveProfile.jsp" />
+	</definition>
+        
+        <definition name="employeePromotionProfile" extends="DefaultTemplate">
+		<put-attribute name="title" value="Employee Promotion List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/employeePromotionProfile.jsp" />
+	</definition>
+        
+        <definition name="employeePayrollProfile" extends="DefaultTemplate">
+		<put-attribute name="title" value="Employee Payroll Profile"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/employeePayrollProfile.jsp" />
+	</definition>
+        
+        <definition name="leaveList" extends="DefaultTemplate">
+		<put-attribute name="title" value="Leave List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/leaveList.jsp" />
+	</definition>
+        
+        <definition name="pendingLeaveList" extends="DefaultTemplate">
+		<put-attribute name="title" value="Pending Leave List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/pendingLeaveList.jsp" />
+	</definition>
+        
+        
+        <definition name="approveLeave" extends="DefaultTemplate">
+		<put-attribute name="title" value="Approve Leave List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/approveLeave.jsp" />
+	</definition>
+        
+        <definition name="leaveReport" extends="DefaultTemplate">
+		<put-attribute name="title" value="Leave List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/leaveReport.jsp" />
+	</definition>
+        
+        <definition name="annualLeave" extends="DefaultTemplate">
+		<put-attribute name="title" value="Add/Edit Annual Leave"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/annualLeave.jsp" />
+	</definition>
+        
+        <definition name="annualLeaveList" extends="DefaultTemplate">
+		<put-attribute name="title" value="Annual Leave List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/annualLeaveList.jsp" />
+	</definition>
+        
+        <definition name="salary" extends="DefaultTemplate">
+		<put-attribute name="title" value="Add/Edit Salary"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/salary.jsp" />
+	</definition>
+        
+         <definition name="salaryList" extends="DefaultTemplate">
+		<put-attribute name="title" value="Salary List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/salaryList.jsp" />
+	</definition>
+        
+        <definition name="payroll" extends="DefaultTemplate">
+		<put-attribute name="title" value="Employee Payroll"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/payroll.jsp" />
+	</definition>
+        
+        <definition name="payrollList" extends="DefaultTemplate">
+		<put-attribute name="title" value="Payroll List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/payrollList.jsp" />
+	</definition>
+        
+        <definition name="payrollProfile" extends="DefaultTemplate">
+		<put-attribute name="title" value="Payroll Profile"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/payrollProfile.jsp" />
+	</definition>
+        
+        <definition name="department" extends="DefaultTemplate">
+		<put-attribute name="title" value="Add/Edit Department"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/department.jsp" />
+	</definition>
+        
+         <definition name="departmentList" extends="DefaultTemplate">
+		<put-attribute name="title" value="Department List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/departmentList.jsp" />
+	</definition>
+        
+        <definition name="designation" extends="DefaultTemplate">
+		<put-attribute name="title" value="Add/Edit Designation"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/designation.jsp" />
+	</definition>
+	
+        <definition name="designationList" extends="DefaultTemplate">
+		<put-attribute name="title" value="Designation List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/designationList.jsp" />
+	</definition>
+        
+           <definition name="promotion" extends="DefaultTemplate">
+		<put-attribute name="title" value="Promotion List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/promotion.jsp" />
+	</definition>
+        
+        <definition name="promotionList" extends="DefaultTemplate">
+		<put-attribute name="title" value="Promotion List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/promotionList.jsp" />
+	</definition>
+        
+        <definition name="approvePromotion" extends="DefaultTemplate">
+		<put-attribute name="title" value="Approval Promotion List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/approvePromotion.jsp" />
+	</definition>
+        
+        <definition name="pendingPromotionList" extends="DefaultTemplate">
+		<put-attribute name="title" value="Pending Promotion List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/pendingPromotionList.jsp" />
+	</definition>
+        
+         <definition name="attendance" extends="DefaultTemplate">
+		<put-attribute name="title" value="Attendance List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/attendance.jsp" />
+	</definition>
+        
+           <definition name="attendanceList" extends="DefaultTemplate">
+		<put-attribute name="title" value="Attendance List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/attendanceList.jsp" />
+	</definition>
+        
+        <definition name="requisition" extends="DefaultTemplate">
+		<put-attribute name="title" value="Requisition List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/requisition.jsp" />
+	</definition>
+        
+        <definition name="requisitionList" extends="DefaultTemplate">
+		<put-attribute name="title" value="Requisition List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/requisitionList.jsp" />
+	</definition>
+        
+        <definition name="pendingRequisitionList" extends="DefaultTemplate">
+		<put-attribute name="title" value="Pending Requisition List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/pendingRequisitionList.jsp" />
+	</definition>
+        
+        <definition name="employeeRequisitionProfile" extends="DefaultTemplate">
+		<put-attribute name="title" value="Requisition List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/employeeRequisitionProfile.jsp" />
+	</definition>
+        
+        <definition name="employeeAnnualLeaveProfile" extends="DefaultTemplate">
+		<put-attribute name="title" value="Annual Leave List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/employeeAnnualLeaveProfile.jsp" />
+	</definition>
+        
+        <definition name="approveRequisition" extends="DefaultTemplate">
+		<put-attribute name="title" value="Approval Requisition List"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/approveRequisition.jsp" />
+	</definition>
+        
+        <definition name="holiday" extends="DefaultTemplate">
+		<put-attribute name="title" value="Add/Edit Holiday"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/holiday.jsp" />
+	</definition>
+        
+        <definition name="holidayList" extends="DefaultTemplate">
+		<put-attribute name="title" value="List Of Holiday"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/holidayList.jsp" />
+	</definition>
+        
+        <definition name="employeeHolidayList" extends="DefaultTemplate">
+		<put-attribute name="title" value="List Of Holiday"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/employeeHolidayList.jsp" />
+	</definition>
+        
+        <definition name="leaveTypeList" extends="DefaultTemplate">
+		<put-attribute name="title" value="List Of Leave Type"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/leaveTypeList.jsp" />
+	</definition>
+        
+         <definition name="leaveType" extends="DefaultTemplate">
+		<put-attribute name="title" value="Add/Edit Leave Type"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/leaveType.jsp" />
+	</definition>
+        
+        <definition name="employeeLeaveTypeList" extends="DefaultTemplate">
+		<put-attribute name="title" value="List Of Leave Type"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/employeeLeaveTypeList.jsp" />
+	</definition>
+        
+	<!-- Administration -->
+	<definition name="user" extends="DefaultTemplate">
+		<put-attribute name="title" value="Add/Edit User"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/administration/user.jsp" />
+	</definition>
+       
+        <definition name="page" extends="DefaultTemplate">
+		<put-attribute name="title" value=" "></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/administration/page.jsp" />
+	</definition>
+	
+        <definition name="rolePage" extends="DefaultTemplate">
+		<put-attribute name="title" value=" "></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/jsp/administration/rolePage.jsp" />
+	</definition>
+        
+	<definition name="changePassword" extends="DefaultTemplate">
+		<put-attribute name="title" value="Change Password" />
+		<put-attribute name="body" value="/WEB-INF/jsp/administration/changePassword.jsp" />
+	</definition>
+	<!-- Setup -->	
+</tiles-definitions>
